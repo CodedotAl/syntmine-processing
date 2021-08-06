@@ -77,9 +77,5 @@ def reverse_string(string):
         return string[::-1]
 reversed = reverse_string(text)
 print(reversed)"""
-    # parse_tree = ast.parse(program_string)
-    # ParsedClass = IdentifierVisitor()
-    # ParsedClass.visit(parse_tree)
-    # print(ParsedClass.parse_dict)
     Processor = Data_Processing()
     print(Processor(program_string))
